@@ -5,6 +5,12 @@ const nextConfig = {
   basePath: '/beauty',
   images: {
     unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**',
+      },
+    ],
   },
   typescript: {
     ignoreBuildErrors: true,
