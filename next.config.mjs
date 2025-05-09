@@ -26,6 +26,11 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  output: 'export',
+  basePath: '/beauty',
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig; 
